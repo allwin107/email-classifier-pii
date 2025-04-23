@@ -1,6 +1,6 @@
 # Email Classifier with PII masking
 
-This project demonstrates how to build an end-to-end system to :
+This project demonstrates how to build an email classifier system to :
 
 - **Mask personally identifiable information (PII)** like name, email, phone number, card number from emails.
 - **Classify** emails into categories like 'Request', 'Incident', 'Change', 'Problem'.
