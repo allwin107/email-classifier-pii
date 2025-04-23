@@ -63,36 +63,38 @@ email-classifier\
 
 ### 1. Clone the Repository
 
-bash
+```
 git clone < repo-link >
 cd email_classifier_project
-
+```
 
 ### 2. Create Virtual Environment (Optional but recommended)
 
-bash
+```
 python -m venv email_classifier
 source email_classifier/bin/activate  # Mac/Linux
 email_classifier\Scripts\activate     # Windows
-
+```
 
 ### 3. Install Requirements
+```
 
-bash
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
-
+```
 
 ### 4. Start the FastAPI Server
 
-bash
+```
 uvicorn api:app --reload
-
+```
 
 ## Test the API (Swagger UI)
 
+```
 - Open your browser and go to: http://127.0.0.1:8000/docs
 - Use the /classify-email endpoint to test!
+```
 
 ## Future Improvements
 
