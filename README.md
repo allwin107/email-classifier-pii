@@ -38,10 +38,10 @@ This project demonstrates how to build an email classifier system to :
 ## Example Request & Response
 
 ### Request
-![Sample Request](image.png)
+![Sample Request](Sample_Request.png)
 
 ### Response
-![Sample Response](image-1.png)
+![Sample Response](Sample_Response.png)
 
 ## Project Structure
 
